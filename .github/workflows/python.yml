@@ -1,10 +1,10 @@
 name: Python workflow
 on: 
-  Workflow_dispatch
+  workflow_dispatch
 
 jobs:
   pythoncommands:
-    runs-on: ubunto_latest
+    runs-on: ubuntu_latest
       with:
         auth-type: IDENTITY
         client-id: ${{ secrets.AZURE_CLIENT_ID }}
