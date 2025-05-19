@@ -47,4 +47,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Job 2
-        run: echo "Job 2 on ubunto-22.04"
+        run: echo "Job 2 on ubunto-22.04 test"
