@@ -1,5 +1,5 @@
      terraform {
-       backend "remote" {
+       backend "local" {
          # The name of your Terraform Cloud organization.
          organization = "example-organization"
 
